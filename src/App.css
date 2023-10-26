@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+}
+
+.adduser {
+  width: 50%;
+}
+
+.viewusers{
+  width: 50%;
+}
+
+
