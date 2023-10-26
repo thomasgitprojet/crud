@@ -12,7 +12,6 @@ function App () {
     nom: "",
     username: ""
   })
-//console.log(addUser[0].name);
 
 
           return (
@@ -27,11 +26,8 @@ function App () {
                 <Viewusers 
                   infoUser={addUser}
                 />   
-              </div>
-                  
+              </div>     
             </div>
-            
-        
         )
         
   

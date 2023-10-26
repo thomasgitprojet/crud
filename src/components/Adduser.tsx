@@ -22,14 +22,19 @@ useEffect(() => {
             <h2>Add User</h2>
             <div>
             <form className='form' onSubmit={handleSubmit}>
-                <label>
+                <div className='formName'>
+                <label className='label'>
                     Nom
                 </label>
                     <input type="text" name="name"  onChange={e => setAddUser({...addUser, nom:e.target.value})}/>
-                <label>
+                </div>
+                <div>
+                <label className='label'>
                     Username
-                    <input type="text" name="name" onChange={e => setAddUser({...addUser, username:e.target.value},)}/>
+                    <input className='inputusername' type="text" name="name" onChange={e => setAddUser({...addUser, username:e.target.value},)}/>
                 </label>
+                </div>
+                
                     
                 <button type="submit">Add User</button>
             </form>
@@ -37,6 +42,8 @@ useEffect(() => {
                     
                 </form>  
             </div>
+
+            
                      
         </div>
   )

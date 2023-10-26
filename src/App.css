@@ -10,4 +10,20 @@
   width: 50%;
 }
 
+.adduser {
+  display: block;
+}
+
+.formName {
+  
+}
+
+.label {
+  margin-right: 3rem;
+}
+
+.inputusername {
+  margin: 1rem;
+}
+
 
