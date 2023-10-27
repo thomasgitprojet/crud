@@ -26,4 +26,10 @@
   margin: 1rem;
 }
 
+td, th{
+  width: 10rem;
+  border: 1px solid;
+  border-color: black;
+}
+
 
